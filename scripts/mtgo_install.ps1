@@ -1,5 +1,7 @@
 param($dir)
 
+Set-PSDebug -Trace 1
+
 start $dir\setup.exe -wait
 
 # ClickOnce installer will start MTGO right away, let's stop it right away too
