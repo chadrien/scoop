@@ -2,7 +2,7 @@ param($dir)
 
 start $dir\setup.exe -wait
 
-:: ClickOnce installer will start MTGO right away, let's stop it right away too
+:: ClickOnce installer will start MTGO right away, stop it right away too
 
 :: wait until MTGO has started
 $started = $false
