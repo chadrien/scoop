@@ -1,6 +1,13 @@
 {
   "##": "https://forums.mtgarena.com/forums/threads/58489",
+  "description": "Magic the Gathering Arena",
   "version": "0.1.2024.749966",
-  "url": "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2024.749966/MTGAInstaller_0.1.2024.749966.msi#/dl.7z",
-  "description": "Magic the Gathering Arena"
+  "url": [
+    "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2024.749966/MTGAInstaller_0.1.2024.749966.msi#/setup.msi",
+    "https://raw.githubusercontent.com/chadrien/scoop/master/mtg-arena_install.ps1"
+  ],
+  "installer": {
+    "file": "mtg-arena_install.ps1",
+    "args": "$dir"
+  }
 }
