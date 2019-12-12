@@ -1,5 +1,6 @@
 {
-  "version": "0.1.1864.739803",
-  "url": "https://mtgarena.downloads.wizards.com/Installers/Windows32/0.1.1864.739803/Live/MTGAInstaller.msi#/dl.7z",
+  // https://forums.mtgarena.com/forums/threads/58489
+  "version": "0.1.2024.749966",
+  "url": "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2024.749966/MTGAInstaller_0.1.2024.749966.msi#/dl.7z",
   "description": "Magic the Gathering Arena"
 }
