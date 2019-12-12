@@ -7,7 +7,7 @@ start $dir\setup.exe -wait
 # wait until MTGO has started
 $started = $false
 Do {
-    $status = Get-Process notepad -ErrorAction SilentlyContinue
+    $status = Get-Process mtgo -ErrorAction SilentlyContinue
     If (!($status)) { Start-Sleep -Seconds 1 }
     Else { $started = $true }
 }
