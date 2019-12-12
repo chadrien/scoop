@@ -3,7 +3,7 @@
   "description": "Magic the Gathering Online",
   "url": [
     "http://mtgoclientdepot.onlinegaming.wizards.com/setup.exe",
-    "https://raw.githubusercontent.com/chadrien/scoop/6a837d2f668fd363534b30ad40d5c066be39b08a/mtgo_install.ps1",
+    "https://raw.githubusercontent.com/chadrien/scoop/5f9d0eb35e20d90a54721305e7e78baca04b11c2/mtgo_install.ps1",
     "https://raw.githubusercontent.com/chadrien/scoop/73d1face2376f796c81d073bf76b775e01f2988b/mtgo_uninstall.ps1"
   ],
   "installer": {
