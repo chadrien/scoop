@@ -1,8 +1,5 @@
 {
-  "version": "latest",
-  "url": "https://mtgarena.downloads.wizards.com/Live/Windows32/MTGAInstaller.exe",
-  "description": "Magic the Gathering Arena",
-  "installer": {
-    "file": "MTGAInstaller.exe"
-  }
+  "version": "0.1.1864.739803",
+  "url": "https://mtgarena.downloads.wizards.com/Installers/Windows32/0.1.1864.739803/Live/MTGAInstaller.msi#/dl.7z",
+  "description": "Magic the Gathering Arena"
 }
