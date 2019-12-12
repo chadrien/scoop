@@ -7,7 +7,7 @@
   ],
   "url": [
     "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2024.749966/MTGAInstaller_0.1.2024.749966.msi#/setup.msi",
-    "https://raw.githubusercontent.com/chadrien/scoop/master/mtg-arena_install.ps1"
+    "https://raw.githubusercontent.com/chadrien/scoop/e3ff102cb1a00a0414b6741b1b488575b38463ce/mtg-arena_install.ps1"
   ],
   "installer": {
     "file": "mtg-arena_install.ps1",
