@@ -1,5 +1,11 @@
 {
   "version": "latest",
   "description": "Magic the Gathering Online",
-  "url": "http://mtgoclientdepot.onlinegaming.wizards.com/setup.exe"
+  "url": [
+    "http://mtgoclientdepot.onlinegaming.wizards.com/setup.exe",
+    "https://raw.githubusercontent.com/chadrien/scoop/6a837d2f668fd363534b30ad40d5c066be39b08a/mtgo_install.ps1"
+  ],
+  "installer": {
+    "file": "mtgo_install.ps1"
+  }
 }
