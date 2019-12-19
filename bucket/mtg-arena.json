@@ -1,13 +1,17 @@
 {
   "##": "https://forums.mtgarena.com/forums/threads/58489",
   "description": "Magic the Gathering Arena",
-  "version": "0.1.2024.749966",
+  "version": "0.1.2028.751023",
   "shortcuts": [
     [ "MTGA.exe", "Magic the Gathering Arena" ]
   ],
   "url": [
-    "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2024.749966/MTGAInstaller_0.1.2024.749966.msi#/setup.msi",
+    "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/2028.751023/MTGAInstaller_0.1.2028.751023.msi#/setup.msi",
     "https://raw.githubusercontent.com/chadrien/scoop/e3ff102cb1a00a0414b6741b1b488575b38463ce/mtg-arena_install.ps1"
+  ],
+  "hash": [
+    "23ae365ac5652a1d3229a23403d8d6614e71be173a7853ce739688ee9f0d135b",
+    "004e30b7f808d94c5b22b4752e6598529047266b8b005247025b6e2f876c9697"
   ],
   "installer": {
     "file": "mtg-arena_install.ps1",
