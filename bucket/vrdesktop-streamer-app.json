@@ -12,8 +12,7 @@
   },
   "uninstaller": {
     "script": [
-      "$app = $b = Get-WmiObject -Class win32_product -Filter \"Name like '%virtual desktop%'\"",
-      "sudo $app.Uninstall()"
+      "Get-Package -Name \"Virtual Desktop Service\" | Uninstall-Package -Force"
     ]
   },
   "shortcuts": [
