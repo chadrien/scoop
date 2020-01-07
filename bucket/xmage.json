@@ -16,12 +16,11 @@
   },
   "installer": {
     "script": [
-      "$JavawPath = scoop which javaw",
-      "$ShortcutLocation = \"$dir\\XmageLauncher.lnk\"",
-      "$ShortcutTarget = \"$JavawPath -jar $dir\\XMageLauncher.jar\"",
       "$WScriptShell = New-Object -ComObject WScript.Shell",
-      "$Shortcut = $WScriptShell.CreateShortcut($ShortcutLocation)",
-      "$Shortcut.TargetPath = $ShortcutTarget"
+      "$Shortcut = $WScriptShell.CreateShortcut(\"$dir\\XmageLauncher.lnk\")",
+      "$Shortcut.TargetPath = scoop which javaw",
+      "$Shortcut.Arguments = \"-jar $dir\\XMageLauncher.jar\"",
+      "$Shortcut.Save()"
     ]
   }
 }
