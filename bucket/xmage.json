@@ -3,7 +3,7 @@
   "description": "Open Source MTGO",
   "version": "nightly",
   "shortcuts": [
-    [ "XMageLauncher.jar", "XMage" ]
+    [ "XMageLauncher.lnk", "XMage" ]
   ],
   "url": [
     "http://xmage.de/xmage/XMageLauncher-0.3.8.jar#/XmageLauncher.jar"
@@ -13,5 +13,15 @@
   ],
   "suggest": {
     "JRE": [ "java/oraclejre8" ]
+  },
+  "installer": {
+    "script": [
+      "$JavawPath = scoop which javaw",
+      "$ShortcutLocation = $dir\\XmageLauncher.lnk",
+      "$ShortcutTarget = \"$JavawPath -jar $dir\\XMageLauncher.jar\"",
+      "$WScriptShell = New-Object -ComObject WScript.Shell",
+      "$Shortcut = $WScriptShell.CreateShortcut($ShortcutLocation)",
+      "$Shortcut.TargetPath = $ShortcutTarget"
+    ]
   }
 }
