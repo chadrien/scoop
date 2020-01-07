@@ -17,7 +17,7 @@
   "installer": {
     "script": [
       "$JavawPath = scoop which javaw",
-      "$ShortcutLocation = $dir\\XmageLauncher.lnk",
+      "$ShortcutLocation = \"$dir\\XmageLauncher.lnk\"",
       "$ShortcutTarget = \"$JavawPath -jar $dir\\XMageLauncher.jar\"",
       "$WScriptShell = New-Object -ComObject WScript.Shell",
       "$Shortcut = $WScriptShell.CreateShortcut($ShortcutLocation)",
