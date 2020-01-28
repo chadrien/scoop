@@ -16,5 +16,12 @@
   "installer": {
     "file": "mtg-arena_install.ps1",
     "args": "$dir"
+  },
+  "checkver": {
+    "url": "https://forums.mtgarena.com/forums/threads/58489",
+    "re": "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/(?<path>[\\d.]+)/MTGAInstaller_(?<version>[\\d.]+).msi"
+  },
+  "autoupdate": {
+    "url": "https://mtgarena.downloads.wizards.com/Live/Windows32/versions/$path/MTGAInstaller_$version.msi#/setup.msi"
   }
 }
