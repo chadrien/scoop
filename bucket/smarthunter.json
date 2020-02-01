@@ -3,10 +3,10 @@
     "version": "nightly",
     "description": "SmartHunter",
     "url": [
-        "https://github.com/gabrielefilipp/SmartHunter/raw/master/SmartHunter/bin/Debug/SmartHunter.exe",
+        "https://github.com/gabrielefilipp/SmartHunter/raw/master/SmartHunter/bin/Debug/SmartHunter.exe#/launcher.exe",
         "https://github.com/gabrielefilipp/SmartHunter/raw/master/SmartHunter/bin/Debug/Newtonsoft.Json.dll"
     ],
     "shortcuts": [
-      [ "SmartHunter.exe", "SmartHunter" ]
+      [ "launcher.exe", "SmartHunter" ]
     ]
 }
