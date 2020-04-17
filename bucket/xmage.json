@@ -11,9 +11,7 @@
   "hash": [
     "e9c34bedc1a30e926f016826508a75140f55ac1bdb75d8c7aed0f16e206cec04"
   ],
-  "suggest": {
-    "JRE": [ "java/oraclejre8" ]
-  },
+  "depends": [ "java/oraclejre8" ],
   "installer": {
     "script": [
       "$WScriptShell = New-Object -ComObject WScript.Shell",
