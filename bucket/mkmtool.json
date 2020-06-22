@@ -7,7 +7,6 @@
       "script": [
         "$moveFrom = Get-ChildItem -Path $dir -Attributes D -Name",
         "cp $dir\\$moveFrom\\* $dir -r -force",
-        "rm $dir\\setup.exe",
         "rm $dir\\$moveFrom -r -force"
       ]
     },
